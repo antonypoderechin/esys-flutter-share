@@ -104,7 +104,7 @@ public class SwiftEsysFlutterSharePlugin: NSObject, FlutterPlugin {
                                             width:originWidth.doubleValue,
                                             height:originHeight.doubleValue);
             }
-            controller.show(activityViewController, sender: self)
         }
+        controller.show(activityViewController, sender: self)
     }
 }
